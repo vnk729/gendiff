@@ -1,6 +1,6 @@
 {
   "name": "diff-calc-vnk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "hexlet project",
   "main": "index.js",
   "bin": {
@@ -15,6 +15,9 @@
   },
   "author": "vnk729",
   "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
