@@ -7,5 +7,5 @@ start:
 lint:
 	npx eslint .
 
-publich:
+publish:
 	npm publish --dry-run
