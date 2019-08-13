@@ -8,4 +8,4 @@ lint:
 	npx eslint .
 
 publich:
-	--dry-run
+	npm publish --dry-run
