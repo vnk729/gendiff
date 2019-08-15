@@ -7,3 +7,6 @@
 ```bash
 npm install -g diff-calc-vnk
 ```
+
+## Example
+[![asciicast](https://asciinema.org/a/Eied02wdchO4BiwNCwk2toGIi.svg)](https://asciinema.org/a/Eied02wdchO4BiwNCwk2toGIi)
