@@ -1,9 +1,10 @@
 import fs from 'fs';
 import _ from 'lodash';
+import parse from './parsers';
 
 export default (pathToFile1, pathToFile2) => {
-  const file1 = JSON.parse(fs.readFileSync(pathToFile1, 'utf-8'));
-  const file2 = JSON.parse(fs.readFileSync(pathToFile2, 'utf-8'));
+  const file1 = parse(pathToFile1);
+  const file2 = parse(pathToFile2);
 
   const allKeys = [...Object.keys(file1), ...Object.keys(file2)];
   const uniqKeys = allKeys.reduce((acc, key) => (acc.includes(key) ? acc : [...acc, key]), []);
