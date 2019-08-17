@@ -9,5 +9,5 @@ program
   .description(description)
   .arguments('<firstConfig> <secondConfig>')
   .action((firstConfig, secondConfig) => console.log(genDiff(firstConfig, secondConfig)))
-  .option('-f, --format [type]', 'Output format')
+  .option('-f, --format [type]', 'output format')
   .parse(process.argv);
