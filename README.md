@@ -9,11 +9,11 @@ npm install -g diff-calc-vnk
 ``` -->
 
 ## Example
-Compares two **.json** files
+###### Compares two **.json** files
 [![asciicast](https://asciinema.org/a/Eied02wdchO4BiwNCwk2toGIi.svg)](https://asciinema.org/a/Eied02wdchO4BiwNCwk2toGIi)
 
-Compares two **.yaml** files
+###### Compares two **.yaml** files
 [![asciicast](https://asciinema.org/a/tuTgnxGsGwByxQfzEpMQqGsxP.svg)](https://asciinema.org/a/tuTgnxGsGwByxQfzEpMQqGsxP)
 
-Compares two **.ini** files
+###### Compares two **.ini** files
 [![asciicast](https://asciinema.org/a/ZWlZvXHc4yKgcBHZx4BU1qTH0.svg)](https://asciinema.org/a/ZWlZvXHc4yKgcBHZx4BU1qTH0)
