@@ -5,4 +5,9 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/16a429115cc91b51c51c/test_coverage)](https://codeclimate.com/github/vnk729/backend-project-lvl2/test_coverage)
 
 ## Examples
+
+#### Differences between two JSON files
 [![asciicast](https://asciinema.org/a/qeYXdxTSOlShBq22Mqy79CM43.svg)](https://asciinema.org/a/qeYXdxTSOlShBq22Mqy79CM43)
+
+#### Differences between two YAML files
+[![asciicast](https://asciinema.org/a/cRMqZGGTMLYeKsS58UJiELQid.svg)](https://asciinema.org/a/cRMqZGGTMLYeKsS58UJiELQid)
