@@ -11,3 +11,6 @@
 
 #### Differences between two YAML files
 [![asciicast](https://asciinema.org/a/cRMqZGGTMLYeKsS58UJiELQid.svg)](https://asciinema.org/a/cRMqZGGTMLYeKsS58UJiELQid)
+
+#### Differences between two INI files
+[![asciicast](https://asciinema.org/a/7wPsjNRsnMBx8PKbiO7w3GK7b.svg)](https://asciinema.org/a/7wPsjNRsnMBx8PKbiO7w3GK7b)
