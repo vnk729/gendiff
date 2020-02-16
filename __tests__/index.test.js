@@ -1,10 +1,15 @@
 import fs from 'fs';
+import path from 'path';
 import genDiff from '../src';
 
-test('gendiff', () => {
-  const pathToFile1 = `${__dirname}/../__fixtures__/before.json`;
-  const pathToFile2 = `${__dirname}/../__fixtures__/after.json`;
-  const expected = fs.readFileSync(`${__dirname}/../__fixtures__/expected.txt`, 'utf-8');
+const getFixturePath = (filename) => path.join(__dirname, '..', '__fixtures__', filename);
+const readFile = (filename) => fs.readFileSync(getFixturePath(filename), 'utf-8');
+const formats = ['json', 'yml'];
+
+test.each(formats)('diff %s files', (format) => {
+  const pathToFile1 = getFixturePath(`before.${format}`);
+  const pathToFile2 = getFixturePath(`after.${format}`);
+  const expected = readFile('expected.txt');
 
   expect(genDiff(pathToFile1, pathToFile2)).toEqual(expected);
 });
